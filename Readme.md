@@ -9,6 +9,7 @@ Completed user stories:
 * [x] Optional: Add animations to the view using alpha and translate
 * [x] Optional: Change colors of the fonts of the views
 * [x] Optional: Add an app icon and launch image
+* [x] Optional: Add an imageview
 
 Notes:
 I still have one bug I would like to fix in the app, however I am not sure how to check if the keyboard is currently being shown. My bug is, if the user  enters an amount, then dismisses the keyboard, then tries to adjust the tip percentage the tip view slides up. This is being called because it is going into my catch-all onEditingChanged() function, although I only want the view to animate when I am editing the text field (Thus the keyboard is up)
